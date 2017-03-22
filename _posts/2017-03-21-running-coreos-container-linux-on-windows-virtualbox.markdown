@@ -7,7 +7,7 @@ categories: coreos
 CoreOS Container Linux是一个轻量级的Linux操作系统，专为集群部署而设计，为您最关键的应用程序提供了自动化，安全和可扩展的能力，它可以运行在大多数云服务提供商，虚拟化平台和裸机服务器上，当然也可以在你的笔记本电脑上通过运行本地VM来构建一个不错的开发环境。CoreOS官网提供了很详细的文档来指导如何构建一个本地的开发环境，但是这些开发环境全部是构建于Linux平台之上的，考虑到那些更习惯于Windows平台的开发者（比如笔者自己），本文简单介绍了如何在Windows平台上通过VirtualBox来创建CoreOS Container Linux虚拟机。
 
 环境
----------------------
+----
 笔者的工作环境如下：
 * WIndows 10 Enterprise
 * Oracle VM VirtualBox 5.1.10
