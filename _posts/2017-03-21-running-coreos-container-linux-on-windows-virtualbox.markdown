@@ -171,7 +171,10 @@ core@CoreOS ~ $
 ~~~
 注意，core是CoreOS内建的用户名，必须全部小写。
 
+Happy developing！
+
+--------
 
 参考资料
 --------
-[Running CoreOS Container Linux on VirtualBox](https://coreos.com/os/docs/latest/booting-on-virtualbox.html)
+1. [Running CoreOS Container Linux on VirtualBox](https://coreos.com/os/docs/latest/booting-on-virtualbox.html)
