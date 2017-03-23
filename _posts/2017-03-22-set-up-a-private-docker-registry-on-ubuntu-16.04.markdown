@@ -225,6 +225,5 @@ docker push registry.gr.org:5000/zookeeper
 Happy developing！
 
 参考资料
-
 --------
 [Deploying a registry server](https://docs.docker.com/registry/deploying/)
