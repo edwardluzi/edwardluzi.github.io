@@ -34,4 +34,4 @@ exclude:
 google_analytics: UA-96125331-1
 
 disqus:
-    shortname: edwardluziblog
+  shortname: edwardluziblog
