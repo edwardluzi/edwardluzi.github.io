@@ -38,7 +38,7 @@ $ chmod +x create-coreos-vdi
 * -d DEST     指定创建CoreOS VDI映像的路径，如未指定，则创建于当前目录
 * -V VERSION  指定要安装的版本，比如是alpha，Beta，或者Stable，如未制定，则缺省为Stable
 
-详情请参阅脚本本身,下述命令将会在当前目录下创建Stable版本的映像。
+详情请参阅脚本本身，下述命令将会在当前目录下创建Stable版本的映像。
 ~~~
 $ ./create-coreos-vdi
 ~~~
@@ -131,8 +131,8 @@ $ VBoxManage modifyhd CoreOS.vdi --resize 32768
 
 ### 生成PuTTY Private Key Files
 在PuTTY安装目录下，找到并运行puttygen。
-1. 在PuTTY Key Generator对话框中，选择菜单Conversions/Import Key, 在Load private key对话框中选择上一步复制的id_rsa文件，然后选择Open按钮。
-2. 在PuTTY Key Generator对话框中，选择Save private key按钮, 选择Yes按钮忽略警告信息，然后在Save private key as对话框中输入要保存的文件名，保存类型为 PuTTY Private Key Files(*.ppk)，选择Save按钮。
+1. 在PuTTY Key Generator对话框中，选择菜单Conversions/Import Key， 在Load private key对话框中选择上一步复制的id_rsa文件，然后选择Open按钮。
+2. 在PuTTY Key Generator对话框中，选择Save private key按钮， 选择Yes按钮忽略警告信息，然后在Save private key as对话框中输入要保存的文件名，保存类型为 PuTTY Private Key Files(*.ppk)，选择Save按钮。
 
 ### 创建并运行新虚拟机
 1. 运行VirtualBox Manager
