@@ -19,7 +19,6 @@ Docker Registry是一个无状态，高度可扩展的服务器端应用程序�
 * Ubuntu 16.04 x 2，一台用来配置私有Docker Registry，另外一台用来当作Docker客户端
 * Docker Engine 17.03.0-ce
 * Docker Compose 1.11.2
-* 科学上网
 
 Docker Compose不是必需的，但是最好使用Docker Compose，这样，我们可以轻松地在一个容器中运行Docker Registry，并可以运行其他Docker容器，比如Nginx，让Nginx处理与外界的安全和沟通。
 
@@ -31,7 +30,7 @@ Docker Compose不是必需的，但是最好使用Docker Compose，这样，我�
 $ docker run -d -p 5000:5000 --restart=always --name registry registry:2.6
 ~~~
 
-或者使用Docker Compose命令
+或者使用Docker Compose命令。
 1. 编辑docker-compose.yml文件，内容如下：
 ~~~
 version: '3'
@@ -212,7 +211,9 @@ An optional company name []:
 openssl x509 -req -in registry.gr.org.csr -CA PersonalCA.crt -CAkeyPersonalCA.key -CAcreateserial -out domain.crt -days 10000
 ~~~
 7. 按照上文`已获得一个证书`的步骤安装和运行Docker Registry
+
 ### 使用
+
 1. 从Docker Hub获取任何Docker映像，并将其标记为指向上步建立的私有Docker Registry
 ~~~
 docker pull ubuntu&&docker tag ubuntu registry.gr.org:5000/ubuntu

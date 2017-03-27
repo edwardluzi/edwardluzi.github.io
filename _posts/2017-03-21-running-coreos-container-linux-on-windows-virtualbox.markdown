@@ -14,13 +14,12 @@ CoreOS Container Linux是一个轻量级的Linux操作系统，专为集群部�
 * Ubuntu 16.04， 虚拟机映像
 * PuTTY 0.68，SSH 和 telnet 客户端
 * WinSCP 5.9.4，用于在Linux虚拟机和Windows之间复制文件
-* 科学上网
 
 因为CoreOS只提供了Linux的脚本来创建虚拟机磁盘映像及配置驱动（Config Drive）磁盘映像，因此需要搭建Linux环境生成上述磁盘映像，然后把它们应用于Windows VirtualBox。
 
 在Ubuntu 16.04中安装virtualbox和mkisofs
 ---------------------------------------
-在创建虚拟机磁盘映像及配置驱动磁盘映像的过程中，需要上述两个工具，请运行如下命令来安装它们:
+在创建虚拟机磁盘映像及配置驱动磁盘映像的过程中，需要上述两个工具，请运行如下命令来安装它们：
 ~~~
 $ sudo apt-get install virtualbox mkisofs
 ~~~
