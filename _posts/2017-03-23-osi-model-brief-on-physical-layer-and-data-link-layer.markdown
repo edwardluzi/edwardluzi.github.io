@@ -299,9 +299,9 @@ LLC使用依赖于特定传输介质（以太网，令牌环，FDDI，802.11）�
 常见网络设备
 ------------
 
-### NIC（Network Interface Controller、网络接口控制器）
+### NIC（Network Interface Controller，网络接口控制器）
 
-网络接口控制器、也叫网络适配器（Network Adapter），网卡（Network Interface Card），或局域网适配器（LAN Adapter），是一块被设计用来允许计算机在计算机网络上进行通讯的计算机硬件。
+网络接口控制器，也叫网络适配器（Network Adapter）、网卡（Network Interface Card）或局域网适配器（LAN Adapter），是一块被设计用来允许计算机在计算机网络上进行通讯的计算机硬件。
 
 NIC使用一个特定的物理层和数据链路层标准，例如令牌环、以太网、光纤通道或Wi-Fi来实现通讯所需要的电路系统。这为一个完整的网络协议栈提供了基础，使得在同一局域网中的小型计算机之间进行通信，并通过诸如IP协议等可路由协议进行大规模的网络通信。
 
